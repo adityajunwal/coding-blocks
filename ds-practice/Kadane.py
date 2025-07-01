@@ -1,3 +1,4 @@
+#Naive Approach i.e. Brute Force
 def maxSubArraySum(arr):
     res = arr[0]
 
