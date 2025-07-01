@@ -37,7 +37,7 @@ class LinkedList{
             Node* newNode = new Node(value);
             newNode->next = head;
             head = newNode;
-        }
+        } 
 
         void insertAtPosition(int val, int pos){
             Node* newNode = new Node(val);
