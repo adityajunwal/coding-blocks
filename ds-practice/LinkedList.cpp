@@ -84,6 +84,7 @@ class LinkedList{
 
         void removeFromBeginning() {
             if (head) { head = head->next; }
+            else { return; }
         }
 
         void removeFromEnd() {
@@ -94,6 +95,7 @@ class LinkedList{
                 }
                 current->next = nullptr;
             }
+            else { return; }
         }
 
         void removeFromPosition(int pos) {
@@ -106,6 +108,7 @@ class LinkedList{
                 }
                 current->next = current->next->next;
             }
+            else { return; }
         }
 };
 
@@ -118,23 +121,38 @@ int main() {
 
     list.print();
 
-    list.insertAtBeginning(5);
-    list.insertAtBeginning(4);
+    // list.insertAtBeginning(5);
+    // list.insertAtBeginning(4);
 
-    list.print();
+    // list.print();
 
-    list.insertAtPosition(7, 3);    
-    list.print();
+    // list.insertAtPosition(7, 3);    
+    // list.print();
 
-    list.removeFromBeginning();
-    list.removeFromEnd();
-    list.print();
+    // list.removeFromBeginning();
+    // list.removeFromEnd();
+    // list.print();
 
-    list.removeFromPosition(2);
-    list.print();
+    // list.removeFromPosition(2);
+    // list.print();
 
-    list.insertAtPosition(7, 2);
-    list.print();
+    // list.insertAtPosition(7, 2);
+    // list.print();
+
+
+    LinkedList nList;
+    for (int i=1; i<10; i++){
+        nList.insertAtEnd(i);
+    }
+
+    nList.print();
+    nList.reverse();
+
+    for (int i = 0; i<5; i++) {
+        nList.removeFromEnd();
+    }
+
+    nList.print();
     // list.reverse();
     // list.print();
 }
