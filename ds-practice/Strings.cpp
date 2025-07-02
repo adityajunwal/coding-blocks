@@ -71,6 +71,21 @@ string PalindromeGenerator(int n){
     return res;
 }
 
+string reverseString(string st, int start, int end) {
+    string res = "";
+    for (int i=0; i<start; i++) {
+        res += st[i];
+    }
+    for (int i=end; i>=start; i--){
+        res += st[i];
+    }
+    for (int i=end+1; i < st.length(); i++) {
+        res += st[i];
+    }
+
+    return res;
+}
+
 
 int main() {
     string first = "Aditya";
@@ -116,16 +131,20 @@ int main() {
     // cout << int(ch1) << endl;
     // cout << int(ch2) << endl;
 
-    srand(time(0));
+    // srand(time(0));
 
-    for (int i=1; i<10; i++) {
-        string pal = PalindromeGenerator(7);
-        cout << i << " Pal : " << pal << " ";
-        isPalindromePro(pal) ? cout << "Palindrome" : cout << "Not a Palindrome";
-        cout << endl;
-    }
+    // for (int i=1; i<10; i++) {
+    //     string pal = PalindromeGenerator(7);
+    //     cout << i << " Pal : " << pal << " ";
+    //     isPalindromePro(pal) ? cout << "Palindrome" : cout << "Not a Palindrome";
+    //     cout << endl;
+    // }
 
     // char ch1 = '■';
     // cout << int(ch1) << endl;
+
+    string st1 = "1234567890";
+    st1 = reverseString(st1, 0, 10);
+    cout << st1;
     return 0;
 }
