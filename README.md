@@ -5,6 +5,9 @@ This repository includes all the code solutions and practice problems from the t
 
 ---
 
+## Go to Assessment 1 Practice Questions:
+[🔴click here](#practice-questions-1)
+
 ## 🗂 Folder Structure
 
 ```
@@ -56,7 +59,9 @@ While this is a personal/public archive of student training, feel free to:
 
 **Aditya Kumar Junwal**
 
-# Assesment 1 Practice Questions
+---
+
+# Assesment 1 Practice Questions [#practice-questions-1]
 ## ✅ Topics 1–18 LeetCode Suggestions
 
 ### 1. **Flow Chart** & 2. **Pseudo code**
