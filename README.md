@@ -197,7 +197,4 @@ But start with basic logic problems.
 | Strings           | Manipulation, Palindromes          |
 | ArrayList         | List, Design, Stack, Queue         |
 
----
-
-Would you like a **PDF of these questions with links** or **practice plan (like 7-day schedule)** for these 18 topics?
 
