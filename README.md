@@ -60,8 +60,8 @@ While this is a personal/public archive of student training, feel free to:
 **Aditya Kumar Junwal**
 
 ---
-
-# Assesment 1 Practice Questions [#practice-questions-1]
+<a name="practice-questions-1" />
+# Assesment 1 Practice Questions 
 ## ✅ Topics 1–18 LeetCode Suggestions
 
 ### 1. **Flow Chart** & 2. **Pseudo code**
