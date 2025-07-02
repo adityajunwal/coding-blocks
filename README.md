@@ -55,5 +55,143 @@ While this is a personal/public archive of student training, feel free to:
 ## 🙋‍♂️ Created and Managed by
 
 **Aditya Kumar Junwal**
-```
+
+# Assesment 1 Practice Questions
+## ✅ Topics 1–18 LeetCode Suggestions
+
+### 1. **Flow Chart** & 2. **Pseudo code**
+
+🟨 *Not typically tested on LeetCode*
+But start with basic logic problems.
+
+> **Practice:**
+
+* [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) (Easy)
+* [Add Digits](https://leetcode.com/problems/add-digits/) (Easy)
+
+---
+
+### 3–5. **Programming Fundamentals** (Variables, Loops, Patterns)
+
+> **Practice:**
+
+* [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) (Easy)
+* [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) (Easy)
+* [Print Pattern Problems](https://practice.geeksforgeeks.org/explore?page=1&category[]=Pattern%20Printing)
+
+---
+
+### 7. **Prime Numbers, LCM, GCD**
+
+> **Practice:**
+
+* [Count Primes](https://leetcode.com/problems/count-primes/) (Medium)
+* [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) (Easy)
+* [Prime Arrangements](https://leetcode.com/problems/prime-arrangements/) (Medium)
+
+---
+
+### 8. **Number Systems**
+
+> **Practice:**
+
+* [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) (Easy)
+* [Add Binary](https://leetcode.com/problems/add-binary/) (Easy)
+* [Number Complement](https://leetcode.com/problems/number-complement/) (Easy)
+
+---
+
+### 9. **Data Types & Typecasting**
+
+> **Practice:**
+
+* [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) (Easy)
+* [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) (Medium)
+
+---
+
+### 10. **Methods / Functions / Static Concepts**
+
+🟨 *Focus on using functions in your code*
+
+> **Practice:**
+
+* [Power of Two](https://leetcode.com/problems/power-of-two/) (Easy)
+* [Palindrome Number](https://leetcode.com/problems/palindrome-number/) (Easy)
+
+---
+
+### 12. **Arrays (1D, Pass-by-value/reference)**
+
+> **Practice:**
+
+* [Find the Maximum Number in an Array](https://leetcode.com/problems/maximum-subarray/) (Kadane’s)
+* [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) (Easy)
+* [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) (Easy)
+
+---
+
+### 13. **Sorting (Bubble, Selection, Insertion)**
+
+> **Practice:**
+
+* [Sort Colors](https://leetcode.com/problems/sort-colors/) (Medium – DNF variant)
+* [Height Checker](https://leetcode.com/problems/height-checker/) (Easy)
+
+---
+
+### 14. **Kadane’s & Max Subarray**
+
+> **Practice:**
+
+* [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (Medium)
+* [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (Easy – Kadane variant)
+
+---
+
+### 15. **Strings & StringBuilder**
+
+> **Practice:**
+
+* [Reverse String](https://leetcode.com/problems/reverse-string/) (Easy)
+* [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) (Easy)
+* [Implement strStr()](https://leetcode.com/problems/implement-strstr/) (Easy)
+
+---
+
+### 16. **String Problems** (Rotation, Concatenation)
+
+> **Practice:**
+
+* [Rotate String](https://leetcode.com/problems/rotate-string/) (Easy)
+* [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) (Easy)
+* [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) (Easy)
+
+---
+
+### 18. **ArrayList & Wrapper Class Concepts**
+
+> **Practice:**
+
+* [Design a Stack Using ArrayList](https://leetcode.com/problems/implement-stack-using-queues/) (Medium)
+* [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) (Easy – uses ArrayList-like logic)
+
+---
+
+## 📌 Summary Table
+
+| Topic             | LeetCode Tags                      |
+| ----------------- | ---------------------------------- |
+| Basics & Patterns | Warmup, Loop Logic                 |
+| Primes, GCD, LCM  | Math, Number Theory                |
+| Number Systems    | Binary, Bitwise                    |
+| Arrays            | Easy-Medium Arrays                 |
+| Sorting           | Bubble, Selection, Insertion logic |
+| Kadane’s          | Subarray, DP                       |
+| Strings           | Manipulation, Palindromes          |
+| ArrayList         | List, Design, Stack, Queue         |
+
+---
+
+Would you like a **PDF of these questions with links** or **practice plan (like 7-day schedule)** for these 18 topics?
 
