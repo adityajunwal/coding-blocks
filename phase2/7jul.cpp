@@ -54,24 +54,27 @@ void print3Pairs(int arr[], int n){
 void merge(int arr1[], int arr2[], int n, int m){
     int i = 0;
     int j = 0;
-    // int arr[n+m];
+    int arr[n+m];
     int k = 0;
     while (i < n && j < m){
         if (arr1[i] < arr2[j]){
-            arr1[k++] = arr1[i++];
+            arr[k++] = arr1[i++];
         } else {
-            arr1[k++] = arr2[j++];
+            arr[k++] = arr2[j++];
         }
     }
 
     while (i < n){
-        arr1[k++] = arr1[i++];
+        arr[k++] = arr1[i++];
     }
 
     while (j < m){
-        arr1[k++] = arr2[j++];
+        arr[k++] = arr2[j++];
     }
 
+    for (int x: arr){
+        cout << x << " ";
+    } cout << endl;
 
 }
 
@@ -79,9 +82,5 @@ int main() {
     int arr1[] = {10, 30, 50, 0, 0, 0};
     int arr2[] = {20, 40, 60};
     merge(arr1, arr2, 3, 3);
-
-    for (int x: arr1){
-        cout << x << " ";
-    } cout << endl;
     return 0;
 }
