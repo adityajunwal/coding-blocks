@@ -32,9 +32,9 @@ int kadane (int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {2, 3, -8, 7, -1, 2, 3};
-    int result = maxSubArray(arr, 7);
-    int resultKD = kadane(arr, 7);
+    int arr[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    int result = maxSubArray(arr, 8);
+    int resultKD = kadane(arr, 8);
     cout << "Max Subarray sum via Brute Force: " << result << endl;
     cout << "Max Subarray sum via Kadane's Algorithm: " << resultKD << endl;
 }
