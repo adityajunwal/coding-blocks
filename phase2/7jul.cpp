@@ -32,9 +32,56 @@ int kadaneSir(int arr[], int n){
     return res;
 }
 
+void print2Pairs(int arr[], int n){
+    for (int i = 0; i < n-1; i++){
+        for (int j=i+1; j < n; j++){
+            cout << "[" << arr[i] << ", " << arr[j] << "]" << endl;
+        }
+    }
+}
+
+void print3Pairs(int arr[], int n){
+    for (int i=0; i<n-2; i++){
+        for (int j=i+1; j<n-1; j++){
+            for (int k=j+1; k<n; k++){
+                cout << "[" << arr[i] << ", " << arr[j] << ", " << arr[k] << "]" << endl;
+            }
+        }
+    }
+}
+
+
+void merge(int arr1[], int arr2[], int n, int m){
+    int i = 0;
+    int j = 0;
+    // int arr[n+m];
+    int k = 0;
+    while (i < n && j < m){
+        if (arr1[i] < arr2[j]){
+            arr1[k++] = arr1[i++];
+        } else {
+            arr1[k++] = arr2[j++];
+        }
+    }
+
+    while (i < n){
+        arr1[k++] = arr1[i++];
+    }
+
+    while (j < m){
+        arr1[k++] = arr2[j++];
+    }
+
+
+}
+
 int main() {
-    int arr[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-    int n = 9;
-    cout << kadaneSir(arr, n);
+    int arr1[] = {10, 30, 50, 0, 0, 0};
+    int arr2[] = {20, 40, 60};
+    merge(arr1, arr2, 3, 3);
+
+    for (int x: arr1){
+        cout << x << " ";
+    } cout << endl;
     return 0;
 }
