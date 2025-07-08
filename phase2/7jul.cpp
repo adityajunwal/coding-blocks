@@ -35,8 +35,8 @@ int kadaneSir(int arr[], int n){
 void print2Pairs(int arr[], int n){
     for (int i = 0; i < n-1; i++){
         for (int j=i+1; j < n; j++){
-            cout << "[" << arr[i] << ", " << arr[j] << "]" << endl;
-        }
+            cout << "[" << arr[i] << ", " << arr[j] << "]" << " ";
+        } cout << endl;
     }
 }
 
@@ -44,9 +44,9 @@ void print3Pairs(int arr[], int n){
     for (int i=0; i<n-2; i++){
         for (int j=i+1; j<n-1; j++){
             for (int k=j+1; k<n; k++){
-                cout << "[" << arr[i] << ", " << arr[j] << ", " << arr[k] << "]" << endl;
-            }
-        }
+                cout << "[" << arr[i] << ", " << arr[j] << ", " << arr[k] << "]" << " ";
+            } 
+        } cout << endl;
     }
 }
 
@@ -79,8 +79,7 @@ void merge(int arr1[], int arr2[], int n, int m){
 }
 
 int main() {
-    int arr1[] = {10, 30, 50, 0, 0, 0};
-    int arr2[] = {20, 40, 60};
-    merge(arr1, arr2, 3, 3);
+    int arr1[] = {10, 20, 30, 40, 50};
+    print2Pairs(arr1, 5);
     return 0;
 }
