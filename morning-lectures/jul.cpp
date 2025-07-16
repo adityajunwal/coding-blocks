@@ -27,9 +27,30 @@ int binarySearch(int arr[], int target, int low, int high){
     return -1;
 }
 
+// Print All occurances
+void searchAll(int arr[], int n, int target, int i=0){
+    if (i == n){
+        return ;
+    }
+    if (arr[i] == target){
+        cout << i << " ";
+    } 
+    searchAll(arr, n, target, i+1);
+}
+
+// Check if an array is sorted in ascending order
+bool isSorted(int arr[], int n, int i=0){
+    if (i < n-1){
+        if (arr[i] > arr[i+1]){
+            return false;
+        }
+    } return true;
+}
+
 int main(){
     int arr[] = {1,2,3,6,6,6,7,8,9};
     int n = 9;
-    cout << binarySearch(arr, 7, 0, n-1);
+    // searchAll(arr, n, 6);
+    cout << isSorted(arr, n);
     return 0;
 }
