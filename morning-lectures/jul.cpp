@@ -15,7 +15,7 @@ int search(int arr[], int n, int target, int i=0){
 // Recursive binary search
 int binarySearch(int arr[], int target, int low, int high){
     if (low <= high){
-        int mid = (low + high) / 2;
+        int mid = low + (high - low) / 2;
         if (arr[mid] == target){
             return mid;
         } else if (arr[mid] < target){
@@ -44,13 +44,16 @@ bool isSorted(int arr[], int n, int i=0){
         if (arr[i] > arr[i+1]){
             return false;
         }
+        return isSorted(arr, n, i+1);
     } return true;
 }
 
+
+
 int main(){
-    int arr[] = {1,2,3,6,6,6,7,8,9};
+    int arr[] = {1,2,3,6,6,6,7,1,9};
     int n = 9;
     // searchAll(arr, n, 6);
-    cout << isSorted(arr, n);
+    cout << binarySearch(arr, 3, 0, n-1);
     return 0;
 }
