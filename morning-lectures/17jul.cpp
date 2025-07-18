@@ -12,7 +12,9 @@ void spellNumber(int n, unordered_map<int, string> words){
 }
 
 int main(){
+
     unordered_map<int, string> words;
+    
     words[1] = "one";
     words[2] = "two";
     words[3] = "three";
